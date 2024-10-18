@@ -1,0 +1,38 @@
+Project topics: Quiz Management Application
+
+Technology Stack:
+Back end - Spring boot, Java
+Front end - React JS, HTM, CSS, JavaScript
+Database - MySQL
+
+Endpoint APIs:
+1. localhost:8080/api/quizzes/create-new-question - To create new question
+2. localhost:8080/api/quizzes/all-questions - To get list of questions
+3. localhost:8080/api/quizzes/question/{id} - To get question by id
+4. localhost:8080/api/quizzes/question/{id}/update - To update question by id
+5. localhost:8080/api/quizzes/question/{id}/delete - To delete question by id
+6. localhost:8080/api/quizzes/subjects - To get list of all the subjects
+7. localhost:8080/api/quizzes/quiz/fetch-questions-for-user - To fetch question for a user
+
+To execute back-end:
+
+Method 1: Run project from an IDE like Eclipse
+Method 2: If running from command line = ./mvnw spring-boot:run
+
+To execute front-end: 
+
+Command: npm start
+
+Project Overview
+This project aims to develop a comprehensive Quiz Management Application that enables administrators to create and manage quizzes, while allowing users to participate in those quizzes. The application will provide a user-friendly interface for both administrators and users, facilitating efficient quiz creation, administration, and participation.
+
+Key Features
+Admin Panel:
+Subject Management: Create, edit, and delete subjects for quizzes.
+Question Creation: Add questions with multiple-choice options
+Quiz Configuration: Assemble quizzes by selecting questions from different subjects.
+User Interface:
+Quiz Selection: Browse available quizzes and select desired ones.
+Quiz Participation: Attempt quizzes within the specified time limit.
+Result Display: View scores and performance analysis after completing quizzes.
+
